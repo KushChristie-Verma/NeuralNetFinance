@@ -30,10 +30,12 @@ This project trains a neural network on historical SPY data to predict whether t
 ---
 
 ## Method
+**Test/Train/Validate**
 - Test data 2015-2021
 - Validate data 2022-2023
 - Test data 2024-2025
 
+**Models**
 - Baseline 0: Risk-free return
 - Baseline 1: Linear regression
 - Model 2: Neural network
