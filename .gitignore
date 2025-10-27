@@ -1,0 +1,52 @@
+# --------------------
+# Python / PyTorch / Finance project
+# --------------------
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.env.bak/
+
+# Jupyter notebooks
+*.ipynb_checkpoints
+
+# Data files (too large or private)
+data/
+*.csv
+*.xlsx
+*.parquet
+
+# Model artifacts
+*.pt
+*.pth
+checkpoints/
+runs/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.user
+*.suo
+*.swp
+*.sln.docstates
+
+# Visual Studio workspace stuff
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
