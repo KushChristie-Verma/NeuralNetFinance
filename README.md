@@ -14,9 +14,9 @@ This project trains a neural network on historical SPY data to predict whether t
 ---
 
 ## Data & Label
-Asset: S&P500 ETF (SPY)
-Horizon: Predict next day
-Target definition: y_t = (close_{t+1} / close_t) - 1_
+- Asset: S&P500 ETF (SPY)
+- Horizon: Predict next day
+- Target definition: $y_t = (close_{t+1} / close_t) - 1$
 
 ---
 
@@ -30,26 +30,26 @@ Target definition: y_t = (close_{t+1} / close_t) - 1_
 ---
 
 ## Method
-Test data 2015-2021
-Validate data 2022-2023
-Test data 2024-2025
+- Test data 2015-2021
+- Validate data 2022-2023
+- Test data 2024-2025
 
-Baseline 0: Risk-free return
-Baseline 1: Linear regression
-Model 2: Neural network
+- Baseline 0: Risk-free return
+- Baseline 1: Linear regression
+- Model 2: Neural network
 
 ---
 
 ## Backtest
-Converting predictions into positions
-Metrics: Sharpe ratio, max drawdown
+- Converting predictions into positions
+- Metrics: Sharpe ratio, max drawdown
 
 ---
 
 ## Installation
 
 ```bash
-git clone https://github.com/<yourusername>/NeuralNetFinance.git
+git clone https://github.com/KushChristie-Verma/NeuralNetFinance.git
 cd NeuralNetFinance
 python -m venv venv
 venv\Scripts\activate  # (Windows)
