@@ -13,6 +13,39 @@ This project trains a neural network on historical SPY data to predict whether t
 
 ---
 
+## Data & Label
+Asset: S&P500 ETF (SPY)
+Horizon: Predict next day
+Target definition: y_t = (close_{t+1} / close_t) - 1_
+
+---
+
+## Features (v1)
+- % returns over past 1, 5, 10, 20 days
+- Volatility: rolling std over past 10, 20 days
+- 20 Day momentum
+- Vol changes: current vol over last 20 day avg vol
+- Crossover momentum
+
+---
+
+## Method
+Test data 2015-2021
+Validate data 2022-2023
+Test data 2024-2025
+
+Baseline 0: Risk-free return
+Baseline 1: Linear regression
+Model 2: Neural network
+
+---
+
+## Backtest
+Converting predictions into positions
+Metrics: Sharpe ratio, max drawdown
+
+---
+
 ## Installation
 
 ```bash
